@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url('pics/background_four.jpg') no-repeat center center/cover; 
+    color: black;
+    opacity: 80%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: yellow;
+
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navlinks{
+    list-style: none; 
+    padding: 0;
+    ;margin:0 ;
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks li{
+    display: inline;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navlinks a:hover {
+    background-color: skyblue; 
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px ; 
+    margin-top: 60px;
+    
+}
+
+img{
+    height:20px;
+}
+
+.suggestion{
+    text-align: center;
+    margin: 40px;
+
+}
+
+button{
+    background-color: yellow;
+    margin: 25px;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: grey;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: yellow;
+}
+
+.back-to-top a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    color: yellow;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navlinks {
+        order: 1;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .navlinks a {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: url('pics/background.jpg') no-repeat center center/cover; /* Add background image */
+    color: black; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: yellow;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+
+
+.receipt-container {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 30%;
+    opacity: 85%;
+    background-color:white; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; 
+}
+
+
+.receipt-header h2 {
+    color: yellow;
+    text-align: center;
+}
+
+
+
+.instructions{
+    margin: 30px;
+}
+
+
+.info {
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.pickup{
+    margin: 20px;
+}
+
+.return{
+    margin: 20px;
+}
+
+.price{
+    margin: 20px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reminder{
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}

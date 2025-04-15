@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+
+
+
+}
+
+.confirmation-container {
+    margin-left: 500px;
+    margin-top: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: gray;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Ride - Booking</title>
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body>
+
+  
+  <nav>
+    <div id="lanpage">
+      <div class="navbar">
+        <h1 class="logo">SMART RIDE</h1>
+        <ul class="navlinks">
+          <li><a href="landing_page.html">HOME</a></li>
+          <li><a href="about_us.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="login.html">RENT NOW</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <form>
+    <div id="carbooking">
+      <div class="header">
+        <h2> Smart Ride Car Rental</h2>
+      </div>
+
+
+      <div class="info">
+        <label for="fullname">FULL NAME</label>
+        <input type="text" id="fullname" required />
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" required />
+
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" id="phone" required />
+
+        <label for="address">ADDRESS</label>
+        <input type="text" id="address" required />
+
+        <label for="address">LICENSE NUMBER</label>
+        <input type="text" id="address" required />
+      </div>
+
+
+      <div class="location">
+        <label for="pickup-location">PICK-UP LOCATION</label>
+        <select id="pickup-location" required>
+          <option value="">Select</option>
+          <option value="loc1">Jaro Plaza, Jaro Iloilo</option>
+          <option value="loc2">SM City, Iloilo</option>
+          <option value="loc3">Robinsons Place, Iloilo</option>
+          <option value="loc4">Iloilo Airport</option>
+        </select>
+      </div>
+
+      <div class="dates">
+        <div class="date-time">
+          <div class="pick-up">
+            <label for="pickup-date">PICK-UP DATE</label>
+            <input type="date" id="pickup-date" required />
+          </div>
+          <div class="pick-up-time">
+            <label for="pickup-time">PICK-UP TIME</label>
+            <input type="time" id="pickup-time" required />
+          </div>
+        </div>
+
+        <div class="date-time">
+          <div class="return-date">
+            <label for="return-date">RETURN DATE</label>
+            <input type="date" id="return-date" required />
+          </div>
+          <div class="return-time">
+            <label for="return-time">RETURN TIME</label>
+            <input type="time" id="return-time" required />
+          </div>
+        </div>
+      </div>
+
+
+      <div class="receipt">
+        <a href="reciept.html">
+          <button type="button" id="choose-car-btn">RENT NOW</button>
+        </a>
+      </div>
+
+    </div>
+  </form>
+
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="landing_page.html">Home</a> |
+            <a href="about_us.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="car.html">Rent Now</a> |
+            <a href="terms of service.html">Terms</a> |
+            <a href="privacy.html">Privacy</a>
+        </div>
+        <div class="back-to-top">
+            <a href="landing_page.html">Back to Top</a>
+        </div>
+        <p>© 2025 Smart Ride. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

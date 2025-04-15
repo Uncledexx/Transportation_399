@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image for Whole Page */
+body {
+    background: url('pics/background.jpg') no-repeat center center/cover; /* Add background image */
+    color: black; /* Default text color */
+    opacity: 85%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black ;
+    color: yellow;
+
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navlinks li {
+    display: inline;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+.navlinks a:hover {
+    background-color: skyblue; 
+    border-radius: 5px;
+}
+
+
+
+.about {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: yellow;
+}
+
+.back-to-top a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    color: yellow;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+    .navlinks {
+        order: 1;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .navlinks a {
+        font-size: 16px;
+    }
+}

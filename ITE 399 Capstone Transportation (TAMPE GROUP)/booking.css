@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('pics/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 80%;
+    color: black;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black;
+    color: yellow;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks li {
+    display: inline;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.navlinks a:hover {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+
+#carbooking {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+
+
+
+h2 {
+    font-size: 24px;
+    color: black;
+    opacity: 100%;
+    margin-bottom: 15px;
+}
+
+/* Form Inputs */
+.dates {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.date-time {
+    justify-content: center;
+    display: flex;
+    gap: 30px; 
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin:8px;
+}
+
+input, select {
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button{
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: yellow;
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: yellow;
+}
+
+.back-to-top a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    color: yellow;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .date-time {
+        flex-direction: column;
+    }
+
+    input, select {
+        width: 100%;
+    }
+}
